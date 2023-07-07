@@ -9,9 +9,9 @@
     flex-direction:  row;
     width: 50%;
     /* align-items: center; */
-    align-content: flex-start;
+    /* align-content: flex-start;
     justify-content: space-between;
-} */
+} */ */
 body{
     height: 100vh;
     
@@ -33,10 +33,14 @@ body {
     text-decoration: none;
     display: flex;
     list-style-type: none;
-    justify-content: space-evenly;
-    align-items: center;
+    align-items: space-between;
+    gap: 20px;
+    
 }
 
+.nav1 h4{
+    margin-right: 40px;
+}
 .navbar{
    
     margin-top: 30px;
@@ -58,7 +62,9 @@ body {
 .nav2{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    gap: 20px;
+    /* align-items: flex-end;
+    align-content: space-evenly; */
 }
 .linethrough{
     text-decoration: line-through;
@@ -124,6 +130,11 @@ h3{
     border-radius: 7px;
     background-color: hsl(26, 100%, 55%);
 }
+
+      
+
+/* NEED TO REVISIT GRID */
+
 
 
 /* .images{
